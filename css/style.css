@@ -1,11 +1,13 @@
 /* 323 Labs Styles */
 
 :root {
-    --primary-color: #0d6efd;  /* Bootstrap primary */
+    --primary-color: #0d6efd;
+    /* Bootstrap primary */
     --secondary-color: #6c757d;
     --dark-color: #212529;
     --light-color: #f8f9fa;
-    --brand-color: #DD1C1A;  /* 323 Labs red */
+    --brand-color: #DD1C1A;
+    /* 323 Labs red */
     --youtube-color: #FF0000;
     --instagram-color: #E1306C;
     --bsky-color: #1DA1F2;
@@ -23,6 +25,8 @@ body {
 .custom-header {
     background-color: var(--brand-color);
     padding: 3rem 0;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
 }
 
 .header-logo {
@@ -90,11 +94,11 @@ body {
     .display-3 {
         font-size: 2.5rem;
     }
-    
+
     .lead {
         font-size: 1rem;
     }
-    
+
     .header-logo {
         max-width: 250px;
     }
