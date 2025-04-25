@@ -1,0 +1,101 @@
+/* 323 Labs Styles */
+
+:root {
+    --primary-color: #0d6efd;  /* Bootstrap primary */
+    --secondary-color: #6c757d;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --brand-color: #DD1C1A;  /* 323 Labs red */
+    --youtube-color: #FF0000;
+    --instagram-color: #E1306C;
+    --bsky-color: #1DA1F2;
+    --blog-color: #FF8800;
+    --podcast-color: #8952e0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.custom-header {
+    background-color: var(--brand-color);
+    padding: 3rem 0;
+}
+
+.header-logo {
+    max-width: 320px;
+    height: auto;
+}
+
+/* Social icons */
+.social-icon {
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon.youtube {
+    color: var(--youtube-color);
+}
+
+.social-icon.instagram {
+    color: var(--instagram-color);
+}
+
+.social-icon.bsky {
+    color: var(--bsky-color);
+}
+
+.social-icon.blog {
+    color: var(--blog-color);
+}
+
+.social-icon.podcast {
+    color: var(--podcast-color);
+}
+
+/* Card styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+    
+    .header-logo {
+        max-width: 250px;
+    }
+}
