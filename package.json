@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prebuild": "node scripts/check-node.mjs",
     "build": "node scripts/build.mjs",
     "deploy": "npm run build && wrangler deploy"
   },
@@ -10,6 +11,6 @@
     "wrangler": "4.151.1"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=26"
   }
 }

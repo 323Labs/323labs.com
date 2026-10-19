@@ -10,7 +10,7 @@ Cloudflare Workers Builds builds and deploys pushes to `main`:
 
 - Build command: `npm run build`
 - Deploy command: `npx wrangler deploy`
-- Node version: `22`
+- Node version: `26` (`.nvmrc`; builds require this major version)
 
 The Worker is named `323labs-com`. Custom domains are managed by `wrangler.jsonc`;
 Cloudflare provisions their DNS records and certificates. Workers development
