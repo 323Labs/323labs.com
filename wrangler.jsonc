@@ -6,8 +6,7 @@
   "workers_dev": false,
   "preview_urls": false,
   "routes": [
-    { "pattern": "323labs.com", "custom_domain": true },
-    { "pattern": "www.323labs.com", "custom_domain": true }
+    { "pattern": "323labs.com", "custom_domain": true }
   ],
   "assets": {
     "binding": "ASSETS",

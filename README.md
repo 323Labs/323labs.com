@@ -2,7 +2,7 @@
 
 Static website hosted on Cloudflare Workers at https://323labs.com,
 using the same static assets and custom domain setup as meshware.net.
-The `www` hostname redirects to the apex domain.
+The Worker has one custom domain: `323labs.com`.
 
 ## Deployment
 
