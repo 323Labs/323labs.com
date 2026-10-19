@@ -16,12 +16,14 @@ The Worker is named `323labs-com`. Custom domains are managed by `wrangler.jsonc
 Cloudflare provisions their DNS records and certificates. Workers development
 and preview URLs are disabled.
 
-To prepare and deploy the site locally with an authenticated Cloudflare login:
+To build the site locally:
 
 ```sh
 npm ci
-npm run deploy
+npm run build
 ```
+
+Publish by committing and pushing to `main`; Cloudflare's Git integration handles deployment.
 
 Only public site files are copied into `dist/` for upload. Source files,
 repository metadata, and deployment configuration are excluded.
