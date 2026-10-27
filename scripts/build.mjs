@@ -6,6 +6,6 @@ const output = new URL('dist/', root);
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 
-for (const path of ['index.html', '404.html', 'css', 'js', 'images']) {
+for (const path of ['index.html', '404.html', 'css', 'js', 'images', 'r']) {
   await cp(new URL(path, root), new URL(path, output), { recursive: true });
 }
