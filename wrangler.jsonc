@@ -13,6 +13,6 @@
     "directory": "./dist",
     "run_worker_first": true,
     "not_found_handling": "404-page",
-    "html_handling": "none"
+    "html_handling": "auto-trailing-slash"
   }
 }
